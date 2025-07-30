@@ -15,13 +15,6 @@ It captures, analyzes, and logs network traffic in real-time and allows dynamic 
 
 ---
 
-## 📷 GUI Screenshot
-
-> ![GUI Screenshot](screenshot.png)  
-> *(Optional: Add a screenshot of the GUI in your repo)*
-
----
-
 ## 🛠️ Tools & Technologies
 
 - **Python 3.x**
@@ -31,43 +24,18 @@ It captures, analyzes, and logs network traffic in real-time and allows dynamic 
 
 ---
 
-## 📂 Project Structure
-
-PersonalFirewall/
-├── firewall_gui.py # GUI and control logic
-├── scapy_firewall_core.py # Core firewall logic (Scapy)
-├── logs/
-│ └── traffic_log.txt # Captured packet logs
-
-yaml
-Copy
-Edit
-
----
-
-## ▶️ How to Run
+## ▶ How to Run
 
 ### 🔧 Prerequisites
 
 - Python 3.8 or later installed
 - Install dependencies:
-  ```bash
+  bash
   pip install scapy
-🚀 Run the Firewall GUI
-Open Terminal or CMD
+  
 
-Navigate to the project folder:
+  ---
 
-bash
-Copy
-Edit
-cd path\to\PersonalFirewall
-Run the GUI:
-
-bash
-Copy
-Edit
-python firewall_gui.py
 📖 How It Works
 The firewall captures packets using Scapy's sniff() method.
 
